@@ -1,0 +1,41 @@
+# ── secrets ─────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*id_rsa*
+*id_ed25519*
+.secrets/
+secrets/
+
+# ── runtime state / garbage ──────────────────────────────────
+blogbot-state.json
+blogbot-state.json.tmp
+tmp/
+*.log
+logs/
+
+# ── python ───────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+
+# ── editors / OS ─────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
